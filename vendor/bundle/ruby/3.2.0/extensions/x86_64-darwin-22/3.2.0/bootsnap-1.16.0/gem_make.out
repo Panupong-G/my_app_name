@@ -1,0 +1,18 @@
+current directory: /Users/panupong/my_app_name/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+/Users/panupong/.rvm/rubies/ruby-3.2.0/bin/ruby -I /Users/panupong/.rvm/rubies/ruby-3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/panupong/my_app_name/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230213-11508-qhobxd sitelibdir\=./.gem.20230213-11508-qhobxd clean
+
+current directory: /Users/panupong/my_app_name/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230213-11508-qhobxd sitelibdir\=./.gem.20230213-11508-qhobxd
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/panupong/my_app_name/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230213-11508-qhobxd sitelibdir\=./.gem.20230213-11508-qhobxd install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20230213-11508-qhobxd/bootsnap
+
+current directory: /Users/panupong/my_app_name/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230213-11508-qhobxd sitelibdir\=./.gem.20230213-11508-qhobxd clean
