@@ -78,4 +78,5 @@ group :development do
   gem "capistrano-rvm", require: false
   gem "bcrypt_pbkdf", require: false
   gem "ed25519", require: false
+  gem "capistrano-secrets-yml"
 end
