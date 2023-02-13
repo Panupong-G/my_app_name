@@ -4,6 +4,7 @@
 # You can define all roles on a single server, or split them:
 
   server "192.46.230.36", user: "fluke", roles: %w{app db web}, my_property: :my_value
+  set :branch, ENV['BRANCH'] || 'main'
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
