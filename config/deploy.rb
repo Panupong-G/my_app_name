@@ -24,7 +24,7 @@ set :repo_url, "git@github.com:Panupong-G/my_app_name.git"
   append :linked_files, "config/database.yml"
 
 # Default value for linked_dirs is []
-# append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "tmp/webpacker", "public/system", "vendor", "storage"
+  append :linked_dirs, "tmp/pids", "tmp/cache", "tmp/sockets"
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
@@ -37,17 +37,3 @@ set :repo_url, "git@github.com:Panupong-G/my_app_name.git"
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secured
-
-namespace :deploy do
-    desc "Run seed"
-    task :seed do
-      on roles(:all) do
-        within current_path do
-          execute :bundle, :exec, 'rails', 'db:seed', 'RAILS_ENV=production'
-        end
-      end
-    end
-   
-    after :migrating, :seed
-  end
-  

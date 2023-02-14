@@ -79,6 +79,7 @@ group :development do
   gem "bcrypt_pbkdf", require: false
   gem "ed25519", require: false
   gem "capistrano-secrets-yml"
+  gem 'capistrano3-puma', require: false
 end
 
 group :production do
