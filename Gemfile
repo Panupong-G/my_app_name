@@ -80,3 +80,7 @@ group :development do
   gem "ed25519", require: false
   gem "capistrano-secrets-yml"
 end
+
+group :production do
+  gem 'pg', '~> 1.4', '>= 1.4.5'
+end
