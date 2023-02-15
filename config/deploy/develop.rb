@@ -5,7 +5,7 @@
 
   server "192.46.230.36", user: "fluke", roles: %w{app db web}, my_property: :my_value
   set :branch, ENV['BRANCH'] || 'main'
-  set :deploy_to, "/var/www/my_app_name"
+  set :deploy_to, "/var/www/panupong-g"
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
